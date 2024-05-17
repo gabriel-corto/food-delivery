@@ -1,0 +1,18 @@
+
+.input-styled-container {
+  height: 2.625rem;
+  border-radius: 4px;
+  border: 1px solid var(--baseButton);
+  background: var(--baseInput);
+  color: var(--baseText);
+  font-size: 0.75rem;
+  padding: 0 0.75rem;
+  transition: 0.4s;
+  outline: none;
+}
+.input-styled-container:focus {
+  border-color: var(--brandYellowDark);
+}
+.input-styled-container::placeholder{
+  color: var(--baseLabel);
+}

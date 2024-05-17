@@ -1,0 +1,39 @@
+:root{
+
+  --baseWite: #FFFFFF;
+  --baseBackground: #EFEFEF;
+  --baseCard: #f1f1f1;
+  --baseInput: #EDEDED;
+  --baseButton: #E6E5E5;
+  --baseHover: #D7D5D5;
+  --baseLabel: #8D8686;
+  --baseText: #574F4D;
+  --baseSubtitle: #403937;
+  --baseTitle: #272221;
+  --baseError: #f84747;
+  --brandPurpleDark: #4B2995;
+  --brandPurple: #8047F8;
+  --brandPurpleLight: #EBE5F9;
+  --brandYellowDark: #C47F17;
+  --brandYellow: #DBAC2C;
+  --brandYellowLight: #F1E9C9;
+
+  --titleTitle_xl: 3rem;
+  --titleTitle_l: 2rem;
+  --titleTitle_m: 1.5rem;
+  --titleTitle_s: 1.2rem;
+  --titleTitle_x: 1.125rem;
+  --textRegular_l: 1.25rem;
+  --textBold_l: 1.25rem;
+  --textRegular_m: 1rem;
+  --textBold_m: 1rem;
+  --textRegular_s: 0.875rem;
+  --textBold_s: 0.75rem;
+  --componentsTag: 0.625rem;
+  --componentsButton_g: 0.875rem;
+  --componentsButton_s: 0.75rem;
+
+  --regular: 'Roboto', sans-serif;
+  --title: 'Madimi one', sans-serif;
+
+}

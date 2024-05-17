@@ -1,0 +1,18 @@
+
+.our-foods-container {
+  width: 100%;
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+}
+section h1 {
+  font-family: var(--title);
+  font-size: var(--titleTitle_l);
+  color: var(--baseSubtitle);
+}
+section .food-lists {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
+  margin-top: 3.5rem;
+}

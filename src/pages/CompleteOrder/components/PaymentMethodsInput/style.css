@@ -1,0 +1,23 @@
+
+.payment-method-container {
+  padding: 0 1rem;
+  background: var(--baseButton);
+  color: var(--baseText);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+  height: 3rem;
+  border: 1px solid var(--baseButton);
+  transition: 0.4s;
+}
+.payment-method-container:hover{
+  background: var(--baseHover);
+  user-select: none;
+}
+.payment-method-container svg {
+  color: var(--brandPurple);
+}

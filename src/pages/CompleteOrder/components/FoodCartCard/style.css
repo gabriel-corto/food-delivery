@@ -1,0 +1,57 @@
+
+.food-cart-card-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid var(--baseButton);
+  padding-bottom: 1.5rem;
+}
+.cart-card-info {
+  display: flex;
+  gap: 1.25rem;
+}
+.cart-card-info img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.cart-card-info strong {
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.cart-card-info p{
+  width: 100%;
+  font-weight: 700;
+  align-self: flex-start;
+}
+.actions-container {
+  margin-top: 0.5rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.actions-container div {
+  max-width: 4.5rem;
+}
+.remove-button {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(baseText);
+  font-size: 0.75rem;
+  height: 100%;
+  text-transform: uppercase;
+  border: none;
+  background: var(--baseButton);
+  padding: 0 0.5rem;
+  border-radius: 6px;
+  transition: 0.4s;
+}
+.remove-button:hover{
+  background: var(--baseHover);
+}
+.remove-button svg {
+  color: var(--brandPurple);
+}

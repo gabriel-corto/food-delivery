@@ -1,0 +1,16 @@
+
+.section-title-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.section-title-container div {
+  display: flex;
+  flex-direction: column;
+}
+.section-title-container h4 {
+  font-size: var(--textRegular_m);
+}
+.section-title-container p {
+  font-size: var(--textRegular_s);
+}

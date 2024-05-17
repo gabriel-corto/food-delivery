@@ -1,0 +1,45 @@
+
+.completed-order-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 35rem;
+}
+.completed-order-form-container h1 {
+  color: var(--baseSubtitle);
+  font-family: var(--title);
+  font-size: var(--titleTitle_m);
+}
+.form-section-container {
+  background: var(--baseCard);
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.adress-form-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 12.5rem 17.25rem 3.75rem;
+  column-gap: 0.75rem;
+  row-gap: 1rem;
+  grid-auto-flow: dense;
+}
+.adress-form-container #cep {
+  grid-column: span 3;
+  max-width: 12.5rem;
+}
+.adress-form-container #street {
+  grid-column: span 3;
+}
+.adress-form-container #complement {
+  grid-column: span 2;
+}
+.payment-methods-options-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  
+}
